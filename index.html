@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  
+  <body class="bg-light">
+    
+    <div id="alert"></div>
+    <div id="success"></div>
+    
+    <form id="#userForm">
+        <div class="container">
+            <h1 class="mt-5 text-center">Form Example</h1>
+                <div class="mt-5 mb-3">
+                 <label class="form-label">Stock Name</label>
+                <input type="text" class="form-control" id="stockName">
+                 <div class="form-text">Please type the name of the stock.</div>
+                </div>
+        <div class="mb-3">
+          <label class="form-label">Price per Share</label>
+          <input type="number" class="form-control" id="stockPrice">
+          <div class="form-text">Please type the price of the stock.</div>
+        </div>
+        
+        <div class="mb-3">
+          <label class="form-label">Number of Shares</label>
+          <input type="number" class="form-control" id="stockNumber">
+          <div class="form-text">Please type the number of shares purchased.</div>
+        </div>
+              
+        <button id="formSubmit" type="submit" class="btn btn-primary">Submit</button>
+        <button id="reset" type="reset" class="btn btn-danger">Reset</button>
+            <div class="mt-2">
+             <h4 id="portfolio"></h4>
+            </div>
+         </div>
+         
+    </form>
+    <div class="container list-group mt-3">
+    <ul id="list">
+      
+    </div>
+      
+    <script src="calisma.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
